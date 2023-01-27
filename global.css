@@ -1,0 +1,39 @@
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-advent-pro: "Advent Pro";
+  --font-abhaya-libre-semibold: "Abhaya Libre SemiBold";
+  --font-yu-gothic: "Yu Gothic";
+  --font-ibm-plex-sans-kr: "IBM Plex Sans KR";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-2xs: 13px;
+  --font-size-xs: 15px;
+  --font-size-sm: 18px;
+  --font-size-base: 20px;
+  --font-size-lg: 35px;
+  --font-size-xl: 36px;
+  --font-size-2xl: 40px;
+  --font-size-3xl: 48px;
+  --font-size-4xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-beige-100: #e1ffe0;
+  --color-turquoise-100: #11d7e3;
+  --color-turquoise-200: rgba(17, 215, 227, 0.35);
+  --color-black: #000;
+  --color-gray-100: #e9e9f1;
+  --color-gray-200: #d9d9d9;
+  --color-gray-300: rgba(0, 0, 0, 0.71);
+
+  /* Paddings */
+  --padding-md: 8px;
+
+  /* border radiuses */
+  --br-xs: 120px;
+  --br-sm: 250px;
+  --br-md: 320px;
+  --br-lg: 360px;
+}

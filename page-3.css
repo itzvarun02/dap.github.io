@@ -1,0 +1,348 @@
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-50px) rotate(-540deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.book-an-appointment1 {
+  position: absolute;
+  top: 82px;
+  left: 583px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-abhaya-libre-semibold);
+}
+.care3 {
+  color: var(--color-turquoise-100);
+}
+.title3 {
+  position: absolute;
+  top: 89px;
+  left: 1209px;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.r-1-icon2 {
+  top: 4px;
+  left: 437px;
+  width: 123px;
+  height: 156px;
+  object-fit: cover;
+}
+.frame,
+.icon1,
+.r-1-icon2 {
+  position: absolute;
+}
+.icon1 {
+  top: 23px;
+  left: 23px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+}
+.frame {
+  top: 830px;
+  left: 1089px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-turquoise-200);
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.search-fill0-wght400-grad0-ops-icon1 {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+}
+.search-fill0-wght400-grad0-ops-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-turquoise-200);
+  position: absolute;
+  top: 829px;
+  left: 117px;
+  border-radius: var(--br-lg);
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  opacity: 0;
+}
+.search-fill0-wght400-grad0-ops-container.animate {
+  animation: 1s ease 0s 1 normal forwards roll-in-left;
+}
+.address,
+.age,
+.contact-no,
+.email,
+.name,
+.sex {
+  position: absolute;
+  top: 61px;
+  left: 119px;
+  font-weight: 600;
+}
+.address,
+.age,
+.contact-no,
+.email,
+.sex {
+  top: 127px;
+}
+.address,
+.contact-no,
+.email,
+.sex {
+  top: 218px;
+  left: 116px;
+}
+.address,
+.contact-no,
+.email {
+  top: 300px;
+}
+.address,
+.contact-no {
+  top: 366px;
+  left: 117px;
+}
+.contact-no {
+  top: 432px;
+}
+.frame-child1,
+.frame-inner,
+.rectangle-input {
+  border: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 63px;
+  left: 248px;
+  width: 362px;
+  height: 49px;
+}
+.frame-child1,
+.rectangle-input {
+  top: 137px;
+}
+.frame-child1 {
+  top: 211px;
+}
+.frame-child2 {
+  top: 285px;
+  left: 248px;
+}
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+  border: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  width: 362px;
+  height: 49px;
+}
+.frame-child3 {
+  top: 359px;
+  left: 297px;
+  opacity: 0;
+}
+.frame-child3.animate,
+.home-frame.animate,
+.resect-container.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.frame-child4 {
+  top: 432px;
+  left: 340px;
+}
+.enter-your-name {
+  border: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  top: 76px;
+  left: 255px;
+  text-align: left;
+  display: inline-block;
+  width: 340px;
+}
+.enter-your-age,
+.enter-your-gender,
+.enter-your-name {
+  position: absolute;
+  color: var(--color-black);
+}
+.enter-your-age {
+  border: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  top: 148px;
+  left: 277px;
+  text-align: left;
+}
+.enter-your-gender {
+  top: 222px;
+  left: 278px;
+}
+.enter-your-address,
+.enter-your-email,
+.enter-your-gender {
+  border: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  text-align: left;
+}
+.enter-your-email {
+  position: absolute;
+  top: 300px;
+  left: 279px;
+  color: var(--color-black);
+}
+.enter-your-address {
+  top: 371px;
+  left: 340px;
+}
+.enter-your-address,
+.enter-your-contact,
+.next1 {
+  position: absolute;
+  color: var(--color-black);
+}
+.enter-your-contact {
+  border: 0;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  top: 443px;
+  left: 367px;
+  text-align: left;
+}
+.next1 {
+  top: 15px;
+  left: 122px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-advent-pro);
+  text-align: center;
+}
+.next-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-turquoise-100);
+  position: absolute;
+  top: 95px;
+  left: 790px;
+  border-radius: 0 var(--br-sm) 0 var(--br-sm);
+  width: 311px;
+  height: 72px;
+  overflow: hidden;
+}
+.resect3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.resect2 {
+  position: absolute;
+  top: 17px;
+  left: 110px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-advent-pro);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 91px;
+  height: 38px;
+}
+.resect-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-turquoise-100);
+  position: absolute;
+  top: 371px;
+  left: 800px;
+  border-radius: 0 var(--br-sm) 0 var(--br-sm);
+  width: 311px;
+  height: 72px;
+  overflow: hidden;
+  opacity: 0;
+}
+.book-an-appointment-group,
+.name-parent {
+  position: absolute;
+  top: 204px;
+  left: 117px;
+  background-color: var(--color-white);
+  width: 1220px;
+  height: 548px;
+  overflow: hidden;
+}
+.book-an-appointment-group {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) 0 var(--br-lg) 0;
+  background-color: var(--color-beige-100);
+  width: 1440px;
+  height: 1024px;
+}
+.home2 {
+  position: absolute;
+  top: 27px;
+  left: 162px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-advent-pro);
+  color: var(--color-black);
+  text-align: center;
+}
+.home-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-turquoise-100);
+  position: absolute;
+  top: 830px;
+  left: 517px;
+  border-radius: 0 var(--br-sm) 0 var(--br-sm);
+  width: 406px;
+  height: 97px;
+  overflow: hidden;
+  opacity: 0;
+}
+.page-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
